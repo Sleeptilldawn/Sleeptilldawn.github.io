@@ -1,0 +1,32 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: #7469B6;
+}
+header span{
+    color:#FFE6E6;
+}
+.nav-item a{
+    color:#FFE6E6;
+}
+/* link visitado*/
+.nav-item a:visited{
+    color:#FFE6E6;
+}
+.nav-item a:hover{
+    color: #AD88C6;
+}
+#nav-button{
+    background-color: #AD88C6;
+}
+.bi{
+    color:#7469B6;
+    font-size: 2em;
+}
+.img-proyecto1{
+    background-image: url('assets/pinterest.png');
+    opacity: 0.6;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
