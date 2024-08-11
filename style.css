@@ -20,16 +20,47 @@ header span{
 #nav-button{
     background-color: #AD88C6;
 }
-.icon-habilidades{
+.btn{
+    background-color: #AD88C6;
+    color: #f9f0f0;
+}
+.bi{
     color:#7469B6;
     font-size: 2em;
 }
+.cardpro{
+    
+    border: 2px outset; 
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative; 
+}
+.cardlink {
+    text-decoration: none; /* Quitar el subrayado */
+    color: inherit; /* Mantener el color del texto original */
+}
+
+.cardpro:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px #978ecc73;
+}
+
 .img-proyecto1{
     background-image: url('assets/pinterest.png');
     opacity: 0.6;
     background-size: contain;
     background-repeat: no-repeat;
 }
+.pb-2{
+    background: linear-gradient(135deg, #FFE6E6, #978ecc);
+    padding: 5px 0;
+    border-radius: 20px;
+}
+.info{
+    text-align: justify;
+}
+
 footer{
     background-color: #7469B6;
     color:#FFE6E6;
